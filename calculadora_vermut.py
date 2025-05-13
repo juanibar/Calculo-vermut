@@ -62,7 +62,7 @@ st.header("3) Solución hidroalcohólica")
 V_sol  = st.number_input(f"Volumen de solución ({suf})", 0.0, value=0.5, step=0.1)
 ABV_sol = st.number_input("Graduación alcohólica de la solución (%)", 0.0, 96.0, 40.0, 0.1)
 
-st.header("4) Azúcar (se considerará para el volumen un almíbar 2:1)")
+st.header("4) Azúcar (se considerará para el volumen un almíbar 1:1)")
 sugar_g = st.number_input("Azúcar (g)", 0.0, value=150.0, step=10.0)
 
 # ─── Cálculos ───────────────────────────────────────────────

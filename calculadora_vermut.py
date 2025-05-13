@@ -58,7 +58,7 @@ st.header("2) Macerado de hierbas")
 V_mac  = st.number_input(f"Volumen de macerado ({suf})", 0.0, value=120.0, step=0.1)
 ABV_mac = st.number_input("Graduación alcohólica del macerado (%)", 0.0, 96.0, 60.0, 0.1)
 
-st.header("3) Solución hidroalcohólica")
+st.header("3) Solución hidroalcohólica para reforzar alcohol")
 V_sol  = st.number_input(f"Volumen de solución ({suf})", 0.0, value=10.0, step=0.1)
 ABV_sol = st.number_input("Graduación alcohólica de la solución (%)", 0.0, 96.0, 96.0, 0.1)
 

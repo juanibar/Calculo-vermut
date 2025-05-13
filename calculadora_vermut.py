@@ -55,12 +55,12 @@ V_vino   = st.number_input(f"Volumen de vino ({suf})", 0.0, value=750.0, step=0.
 ABV_vino = st.number_input("Graduación alcohólica del vino (%)", 0.0, 20.0, 12.0, 0.1)
 
 st.header("2) Macerado de hierbas")
-V_mac  = st.number_input(f"Volumen de macerado ({suf})", 0.0, value=150, step=0.1)
-ABV_mac = st.number_input("Graduación alcohólica del macerado (%)", 0.0, 96.0, 40.0, 0.1)
+V_mac  = st.number_input(f"Volumen de macerado ({suf})", 0.0, value=120.0, step=0.1)
+ABV_mac = st.number_input("Graduación alcohólica del macerado (%)", 0.0, 96.0, 60.0, 0.1)
 
 st.header("3) Solución hidroalcohólica")
-V_sol  = st.number_input(f"Volumen de solución ({suf})", 0.0, value=15, step=0.1)
-ABV_sol = st.number_input("Graduación alcohólica de la solución (%)", 0.0, 96.0, 90.0, 0.1)
+V_sol  = st.number_input(f"Volumen de solución ({suf})", 0.0, value=10.0, step=0.1)
+ABV_sol = st.number_input("Graduación alcohólica de la solución (%)", 0.0, 96.0, 96.0, 0.1)
 
 st.header("4) Azúcar (se considerará para el volumen un almíbar 1:1)")
 sugar_g = st.number_input("Azúcar (g)", 0.0, value=100.0, step=10.0)
